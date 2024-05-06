@@ -5,7 +5,7 @@ This is a command-line project that simulates Conway's Game of Life, producing t
 This project will deliver 3 deliverables upon  a successful build which are
 * The application jar file
 * A jar file of the application jar file with dependencies.
-* The application distribution. This application distribution will include
+* The application distribution as a zip file
 
 ## Installation and Usage
 
