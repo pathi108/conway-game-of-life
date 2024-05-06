@@ -2,6 +2,10 @@
 
 ## Introduction
 This is a command-line project that simulates Conway's Game of Life, producing the next 100 states based on an initial state provided as a CSV file. The game is played on a 200x200 grid.
+This project will deliver 3 deliverables upon  a successful build which are
+* The application jar file
+* A jar file of the application jar file with dependencies.
+* The application distribution. This application distribution will include
 
 ## Installation and Usage
 
