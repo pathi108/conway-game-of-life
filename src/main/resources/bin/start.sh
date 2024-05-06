@@ -1,0 +1,1 @@
+java -jar lib/conway-game-of-life-${project.version}-jar-with-dependencies.jar input/input.csv

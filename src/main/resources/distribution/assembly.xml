@@ -11,7 +11,7 @@
             <outputDirectory>/</outputDirectory>
             <filtered>true</filtered>
             <includes>
-                <include>start.bat</include>
+                <include>start.*</include>
             </includes>
             <fileMode>0755</fileMode>
         </fileSet>

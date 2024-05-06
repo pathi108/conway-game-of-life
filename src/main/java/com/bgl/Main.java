@@ -1,14 +1,10 @@
 package com.bgl;
 
 import com.bgl.engine.model.Cell;
-import com.bgl.engine.validate.InputValidator;
 import com.bgl.util.InputReader;
 import com.bgl.util.StateFormatException;
-import org.apache.commons.csv.CSVFormat;
-import org.apache.commons.csv.CSVRecord;
 
 import java.io.*;
-import java.util.ArrayList;
 import java.util.List;
 
 public class Main {
@@ -37,7 +33,9 @@ public class Main {
         for(Cell changedSate: changedSates ){
             nextState.append(changedSate.toString()).append(",");
         }
-        nextState.deleteCharAt(nextState.length()-1);
+        if(changedSates.size()!=0) {
+            nextState.deleteCharAt(nextState.length() - 1);
+        }
 
         nextState.append("]");
         System.out.println(nextState.toString());
